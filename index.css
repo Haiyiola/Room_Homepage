@@ -4,11 +4,15 @@
     box-sizing: border-box;
 }
 @font-face {
-    font-family: "LeagueSpartan-Bold.otf";
-    src: url("./LeagueSpartan-Bold.otf");
+    font-family: "LeagueSpartan-Bold.ttf";
+    src: url("./LeagueSpartan-Bold.ttf");
+}
+@font-face {
+    font-family: "LeagueSpartan-Regular.ttf";
+    src: url("./LeagueSpartan-Regular.ttf");
 }
 :root{
-    --font: "LeagueSpartan-Bold.otf";
+    --font: "LeagueSpartan-Regular.ttf";
     --grey:  #a1a1a1;
     --darkGray: #838383;
     --veryDarkGray: #454545;
@@ -70,7 +74,7 @@ article section{
     cursor: pointer;
     color: white;
     font-family: var(--font);
-    font-size: 13px;
+    font-size: 14px;
     /* font-weight: 500; */
     padding: 3px 0px;
 }
@@ -82,13 +86,13 @@ article section{
 } */
 p{
     font-family: var(--font);
-    font-size: 13px;
+    font-size: 16px;
     /* font-weight: 500; */
     text-align: justify;
     color: var(--veryDarkGray);
     line-height: 22px;
 }
-h4{
+h4, h5{
     font-family: var(--font);
     font-size: 20px;
     line-height: 25px;
@@ -96,7 +100,7 @@ h4{
 }
 h3{
     font-family: var(--font);
-    font-size: 22px;
+    font-size: 25px;
     line-height: 27px;
     /* font-weight: 700; */
 }
@@ -117,7 +121,8 @@ h3{
     align-items: center;
 }
 .shop-now h5{
-    letter-spacing: 2px;
+    letter-spacing: 12px;
+    cursor: pointer;
 }
 .shop-now h5:hover{
     color: #838383;
